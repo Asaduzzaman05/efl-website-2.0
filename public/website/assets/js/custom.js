@@ -1,5 +1,5 @@
 var getUrl = window.location;
-var baseurl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1] + "/" + getUrl.pathname.split('/')[2];
+var baseurl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1] ;
 console.log(baseurl);
 
 // $(document).ready(function () {
