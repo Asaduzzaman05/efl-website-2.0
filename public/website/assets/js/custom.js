@@ -190,13 +190,15 @@ $(document).on('click', '.collection-image', function(e) {
             onTranslated: function(event) {
                 let currentIndex = event.item.index;
                 let activeTitle = $('.owl-item').eq(currentIndex).find('img').attr('data-title') || '';
-
                 $('.collection_modal_footer').html(activeTitle);
             }
         });
 
         let initialTitle = $('.owl-item.active img').attr('data-title') || '';
-        $('.collection_modal_footer').html('<strong>' + initialTitle + '</strong>');
+        $('.collection_modal_footer').html(initialTitle);
+
+        let modal_title = $(".owl-carousel .owl-item.active img").attr('modal-title') || 'No Title';
+        $('.collection_modal_head').html(modal_title);
 
     }, 500);
 

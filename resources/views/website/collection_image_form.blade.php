@@ -4,6 +4,7 @@
     use App\Models\Finish;
 
     $collection = AdminService::find($data_id);
+
     $detail_image = '';
 
     if ($collection) {
@@ -13,6 +14,9 @@
     }
     $all_fabrics = Fabric_sheet::where('style_id', $data_id)->get();
     $fabric_title = "<ol>";
+    $dept = get_single_db_value(  $collection->dept, 'Department', 'name');
+    $item= get_single_db_value($collection->item, 'Item', 'name');
+    $modal_head = $dept . ' (' . $item . ')';
 
 @endphp
 
@@ -64,7 +68,7 @@
     <div class="panel-body minimal">
         <div class="row" style="padding-top: 10px">
             <div class="owl-carousel owl-theme ">
-                <img loading="lazy" src="{{ asset('public/uploads/collections/' . $collection->title_image) }}" alt="Image" style="" data-title="{{$fabric_title?? ""}}">
+                <img loading="lazy" src="{{ asset('public/uploads/collections/' . $collection->title_image) }}" alt="Image" style=""  data-title="{{$fabric_title?? ""}} " modal-title="{{  $modal_head }}">
                 @if (!empty($data_photo_arr))
                     @foreach ($data_photo_arr as $image)
                         <div class="item">
@@ -74,7 +78,7 @@
                             data-title="{{ $image['title'] ?? '' }}">
                         </div>
                     @endforeach
-               
+
                 @endif
             </div>
         </div>

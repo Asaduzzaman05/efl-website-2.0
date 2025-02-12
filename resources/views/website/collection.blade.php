@@ -132,12 +132,11 @@
                                                 <div class="modal fade" id="collection_image_modal" tabindex="-1" aria-hidden="true" role="dialog" aria-labelledby="collection_image_modal" data-backdrop="static">
                                                     <div class="modal-dialog modal-dialog-centered collection_image_modal_dialog" role="document" style="width:100%;">
                                                         <div class="modal-content">
-                                                            <div class="modal-header" style="padding: 0px;">
-                                                                <div class="col-md-12 col-md-12 col-xs-12" style="padding: 10px !important;"><b>Product Details</b>
-                                                                    <button type="button" class="close-modal-btn" data-dismiss="modal" aria-label="Close" style="font-size: 50px;right:-7%;top:-6px;background:transparent;color:red;position: absolute;;">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
+                                                            <div class="modal-header " style="padding: 0px;">
+                                                                <button type="button" class="close-modal-btn" data-dismiss="modal" aria-label="Close" style="font-size: 50px;right:-7%;top:-6px;background:transparent;color:red;position: absolute;;">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                                <div class="col-md-12 col-md-12 col-xs-12 collection_modal_head" style="padding: 10px !important;"><b></b> </div>
                                                             </div>
                                                             <div class="modal-body collection_modal_body" style="padding: 0px !important;padding: 0px !important; overflow-y: hidden; overflow-x: hidden;height:500px;">
 
