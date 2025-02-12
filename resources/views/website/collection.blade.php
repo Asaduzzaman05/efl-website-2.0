@@ -58,14 +58,14 @@
                                                             <ul>
                                                                 <li><a href="javascript:void(0);" class="filter-department active" data-filter="all">All Products</a></li>
                                                                 <li><a href="javascript:void(0);" class="filter-department" data-filter="1">Mens</a></li>
-                                                                <li><a href="javascript:void(0);" class="filter-department" data-filter="2">Ladies</a></li>
-                                                                <li><a href="javascript:void(0);" class="filter-department" data-filter="13">Women</a></li>
+                                                                <li><a href="javascript:void(0);" class="filter-department" data-filter="20">Ladies</a></li>
+                                                                <li><a href="javascript:void(0);" class="filter-department" data-filter="12">Women</a></li>
                                                                 <li><a href="javascript:void(0);" class="filter-department" data-filter="3">Boy's</a></li>
                                                                 <li><a href="javascript:void(0);" class="filter-department" data-filter="9">Baby Boy's</a></li>
                                                                 <li><a href="javascript:void(0);" class="filter-department" data-filter="3">Girl's</a></li>
                                                                 <li><a href="javascript:void(0);" class="filter-department" data-filter="10">Baby Girl's</a></li>
-                                                                <li><a href="javascript:void(0);" class="filter-department" data-filter="13">Kid's</a></li>
-                                                                <li><a href="javascript:void(0);" class="filter-department" data-filter="36">Big Girl's</a></li>
+                                                                <li><a href="javascript:void(0);" class="filter-department" data-filter="5">Kid's</a></li>
+                                                                <li><a href="javascript:void(0);" class="filter-department" data-filter="37">Big Girl's</a></li>
                                                             </ul>
                                                         </div>
                                                 </li>
